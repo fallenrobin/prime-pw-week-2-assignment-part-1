@@ -29,18 +29,18 @@ friendsPets += 2;
 const allowedPets = 5;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-if (adventurous) {
-  console.log('Adventures are great!');
-}
-else {
-  console.log('How about we stay home?');
-}
+// if (adventurous) {
+//   console.log('Adventures are great!');
+// }
+// else {
+//   console.log('How about we stay home?');
+// }
 
 // 14 - Create a compound conditional: if luckyNumber is 2 and adventurous is true,
 // console log "Roll the dice!"
-if (luckyNumber === 2 && adventurous === true) {
+if (luckyNumber === 2 && adventurous == true) {
   console.log("Roll the dice!");
-} //end lucky number plus adventurous
+} //for posterity— end lucky number plus adventurous
 
 // 15 - Write a conditional that console logs "I can have more pets!"
 //if the value of `pets` is less than the value of `allowedPets`,
@@ -73,3 +73,5 @@ console.log('I can have more pets!');
 //      You'll need to research how to use switch statements!
 
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+adventurous = true ? "Adventures are great!" : "How about we stay home?";
+console.log(adventurous);
