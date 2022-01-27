@@ -65,21 +65,24 @@ console.log('I can have more pets!');
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
 
-let mostPets; //set the variable with no value
-if (pets > friendsPets); {
+let mostPets; //created mostPets with no value
+
+if (pets > friendsPets) {
   mostPets = pets;
-  console.log(mostPets);
-  console.log("I have more pets!");
-}
-if (pets < friendsPets); {
+console.log(mostPets);
+console.log("I have more pets than my friend does");
+}//end I have more pets
+
+else if (pets < friendsPets) {
   mostPets = friendsPets;
-  console.log(mostPets);
-  console.log("My friend has more pets!");
-}
-if (pets === friendsPets);{
-  mostPets = "We both have the same number of pets!";
-  console.log(mostPets);
-}
+console.log(mostPets);
+console.log("My friend has more pets than I do");
+}// end My friend has more pets
+
+else {
+  console.log("We have the same number of pets");
+}//default if both pets are equal
+
 
 
 // 17 - Write a *switch* statement that logs:
