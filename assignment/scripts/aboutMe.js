@@ -5,7 +5,7 @@ let firstName = 'Juliette ';
 let lastName = 'Lelchuk';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 // (remember, you already have variables for this, can you use those?)
-let fullName = firstName + lastName;
+let fullName = firstName + "" + lastName;
 // 4 - Console log the value of `fullName`
 console.log(fullName);
 // 5 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
@@ -92,13 +92,13 @@ else {
 //      Otherwise, log "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 switch (luckyNumber) {
-  case (luckyNumber === 1):
+  case (1):
     console.log("First is the worst");
     break;
-  case (luckyNumber === 2):
+  case (2):
     console.log("Second is the best");
       break;
-  case (luckyNumber === 3):
+  case (3):
     console.log("Third is the one with the polka dot dress");
       break;
   default:
